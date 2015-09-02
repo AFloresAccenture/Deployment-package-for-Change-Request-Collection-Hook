@@ -1,0 +1,10 @@
+Command to execute the package of collection hook. 
+
+
+1.Open Unix. 
+2.Move the MSC_CL_CLEANSE_PKG.pkb to /u01/oracle/apps/apps_st/appl/xxnbty/12.0.0/admin/sql using WINSCP and execute the command below in the UNIX.
+
+sqlplus -s USERNAME/PASSWORD
+
+@/u01/oracle/apps/apps_st/appl/xxnbty/12.0.0/admin/sql/MSC_CL_CLEANSE_PKG.pkb
+
